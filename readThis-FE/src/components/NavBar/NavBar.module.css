@@ -1,0 +1,66 @@
+html,
+body {
+  overflow-x: hidden;
+  width: 100vw;
+}
+
+.navbar {
+  width: 100%;
+  height: 60px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 30px;
+  background-color: rgb(0, 0, 0);
+  color: #d1a0d7;
+  box-sizing: border-box;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 1000;
+}
+
+.logo {
+  height: 50px;
+  width: auto;
+  transition: transform 0.3s ease;
+}
+
+.logo:hover {
+  transform: scale(1.1);
+}
+
+.title {
+  font-size: 8px;
+  margin: 0;
+  color: #d1a0d7;
+  text-align: center;
+  flex: 1;
+}
+
+.title:hover {
+  color: #d1a0d7;
+}
+
+.userIcon {
+  font-size: 30px;
+  color: #d1a0d7;
+  cursor: pointer;
+  transition: transform 0.3s ease;
+  margin-left: auto;
+  margin-right: 20px;
+}
+
+.userIcon:hover {
+  transform: scale(1.1);
+}
+
+.logoutIcon {
+  cursor: pointer;
+  font-size: 1.5rem;
+  color: #555;
+}
+
+.logoutIcon:hover {
+  color: #d9534f;
+}

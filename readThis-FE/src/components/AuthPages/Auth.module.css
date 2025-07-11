@@ -1,0 +1,141 @@
+.pageContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  width: 100vw;
+  background: #ffffff;
+  margin: 0;
+  padding: 0;
+}
+
+.authForm {
+  width: 350px;
+  padding-left: 30px;
+  padding-right: 30px;
+  background: rgba(0, 0, 0, 0.85);
+  color: white;
+  border-radius: 12px;
+  box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.3);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  position: relative;
+  margin: 0;
+}
+
+.formTitle {
+  margin-bottom: 20px;
+  color: #d1a0d7;
+}
+
+.formInput {
+  width: 100%;
+  padding: 12px;
+  margin-bottom: 15px;
+  border: 1px solid #d1a0d7;
+  border-radius: 6px;
+  background: rgba(255, 255, 255, 0.1);
+  color: white;
+  box-sizing: border-box;
+}
+
+.actionButton {
+  width: 60%;
+  padding: 12px;
+  background: #d1a0d7;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: bold;
+  transition: background 0.3s ease;
+  color: black;
+  margin-bottom: 5px;
+  margin-top: 10px;
+}
+
+.actionButton:hover {
+  background: #c08ac7;
+}
+
+.text {
+  margin-top: 10px;
+  font-size: 14px;
+}
+
+.formToggle {
+  color: #d1a0d7;
+  text-decoration: none;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.formToggle:hover {
+  text-decoration: underline;
+}
+
+.logo {
+  width: 180px;
+  height: auto;
+  margin-bottom: 30px;
+}
+
+.passwordContainer {
+  display: flex;
+  align-items: center;
+  position: relative;
+  width: 100%;
+}
+
+.passwordInput {
+  flex: 1;
+  width: 100%;
+  padding-right: 50px;
+  height: 45px;
+  border-radius: 6px;
+  border: 1px solid #d1a0d7;
+  background: rgba(255, 255, 255, 0.1);
+  color: white;
+  box-sizing: border-box;
+  margin-bottom: 15px;
+}
+
+.eyeIcon {
+  position: absolute;
+  right: 12px;
+  cursor: pointer;
+  color: #d1a0d7;
+  width: 30px;
+  height: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.imageInput img {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-top: 10px;
+  margin-bottom: 100px;
+}
+
+.uploadButton {
+  color: white !important; /* טקסט שחור */
+  border: 1px solid white !important; /* גבול שחור */
+  font-size: 16px !important; /* גודל טקסט */
+  font-weight: bold !important; /* טקסט מודגש */
+  padding: 10px 20px !important; /* ריווח פנימי */
+  border-radius: 6px !important; /* פינות מעוגלות */
+  transition: background-color 0.3s ease, color 0.3s ease !important; /* אפקט מעבר */
+}
+
+.uploadButton:hover {
+  background-color: white !important; /* רקע שחור במעבר עכבר */
+  color: black !important; /* טקסט לבן במעבר עכבר */
+}
+

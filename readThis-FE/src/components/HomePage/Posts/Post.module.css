@@ -1,0 +1,158 @@
+.post {
+  border: 1px solid #ddd;
+  padding: 20px;
+  margin: 20px auto;
+  border-radius: 10px;
+  background-color: #fdfdfd;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  max-width: 800px;
+  width: 800px;
+}
+
+.post:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 6px 10px rgba(0, 0, 0, 0.2);
+}
+
+.postsContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  align-items: center;
+  width: 100%;
+}
+
+.title {
+  font-size: 20px;
+  font-weight: bold;
+  color: #800080;
+  margin-bottom: 10px;
+  text-align: center;
+  cursor: pointer;
+}
+
+.content {
+  font-size: 16px;
+  color: #333;
+  margin-bottom: 10px;
+  text-align: justify;
+}
+
+.author {
+  font-size: 14px;
+  color: #555;
+  font-style: italic;
+  text-align: right;
+  margin-top: 10px;
+}
+
+.actionContainer {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  margin-top: 10px;
+}
+
+.likeContainer,
+.commentContainer {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  cursor: pointer;
+}
+
+.likeIcon,
+.commentIcon {
+  font-size: 24px;
+  color: #ccc;
+  transition: color 0.3s ease, transform 0.3s ease;
+}
+
+.likeIcon:hover,
+.commentIcon:hover {
+  transform: scale(1.2);
+}
+
+.liked {
+  color: #e0245e;
+}
+
+.likeCount,
+.commentCount {
+  font-size: 16px;
+  color: #555;
+}
+
+.commentsSection {
+  margin-top: 20px;
+  padding: 10px;
+  background: #f9f9f9;
+  border-radius: 8px;
+}
+
+.comment {
+  display: flex;
+  align-items: flex-start;
+  margin-bottom: 10px;
+}
+
+.commentUserImage {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+
+.commentUserName {
+  font-weight: bold;
+  margin-bottom: 5px;
+  color: #333;
+}
+
+.commentText {
+  margin: 0;
+  color: #333;
+}
+
+.addComment {
+  margin-top: 10px;
+  display: flex;
+  flex-direction: column;
+}
+
+.commentInput {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 10px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  background-color: #ccc;
+}
+
+.commentButton {
+  padding: 10px;
+  background: #555;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.commentButton:hover {
+  background: #333;
+}
+
+.postImage {
+  width: 100%;
+  height: 300px;
+  object-fit: contain;
+  border-radius: 10px;
+  display: block;
+  margin: auto;
+}
+
+.recommendIcon {
+  color: #0a0a0a;
+}
+
