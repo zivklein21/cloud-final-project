@@ -41,7 +41,7 @@ export const googleAuth = async (req: Request, res: Response): Promise<void> => 
       const tokens = await authController.generateToken(user.id.toString());
   
       res.status(200).send({
-        _id: user.id,
+        id: user.id,
         username: user.username,
         email: user.email,
         imageUrl: user.imageUrl,

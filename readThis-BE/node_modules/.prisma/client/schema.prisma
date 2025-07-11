@@ -23,6 +23,7 @@ model User {
   posts        Post[]    @relation("UserPosts")
   likedPosts   Post[]    @relation("LikedPosts")
   comments     Comment[]
+  googleId     String?   @unique
 }
 
 model Post {
