@@ -4,7 +4,7 @@ import { Link, useNavigate } from "react-router-dom";
 import VisibilityIcon from "@mui/icons-material/Visibility";
 import VisibilityOffIcon from "@mui/icons-material/VisibilityOff";
 import { GoogleLogin } from "@react-oauth/google";
-import axios, { AxiosError } from "axios";
+import { AxiosError } from "axios";
 import styles from "./Auth.module.css";
 import readThis from "../../assets/readThis.svg";
 import { googleSignin, loginUser} from "../../Utils/user_service";
